@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Volunteer Matching Service</h1>
+  </header>
+
+  <main>
+    <h2>Create an Account</h2>
+    <form id="signup-form">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="skills">Skills:</label>
+      <textarea id="skills" name="skills" rows="3" placeholder="List your skills (e.g., tutoring, graphic design)..."></textarea>
+
+      <label for="availability">Availability:</label>
+      <select id="availability" name="availability">
+        <option value="weekdays">Weekdays</option>
+        <option value="weekends">Weekends</option>
+        <option value="evenings">Evenings</option>
+      </select>
+
+      <button type="submit">Sign Up</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Volunteer Matching Service</p>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
